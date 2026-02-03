@@ -1,11 +1,7 @@
 # ==============================================================================
 # IJC445 DATA VISUALISATION - CHART 3: HORIZONTAL BAR CHART (Cumulative Inflation)
 # ==============================================================================
-# Script: 03_chart3_bar_cumulative_inflation.R
-# Purpose: Create horizontal bar chart ranking cumulative fare increases
-# Chart Type: Horizontal Bar Chart
-# Module: IJC445 Data Visualisation
-# Date: January 2026
+
 # ==============================================================================
 
 # SETUP ------------------------------------------------------------------------
@@ -87,5 +83,6 @@ ggsave("visualisations/diverse/chart3_bar_cumulative_inflation.png",
 
 # Auto-display chart
 print(chart3)
+
 
 
