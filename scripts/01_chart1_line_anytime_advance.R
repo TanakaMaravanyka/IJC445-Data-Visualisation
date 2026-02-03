@@ -1,11 +1,6 @@
 # ==============================================================================
 # IJC445 DATA VISUALISATION - CHART 1: LINE CHART (Anytime vs Advance)
-# ==============================================================================
-# Script: 01_chart1_line_anytime_advance.R
-# Purpose: Create line chart showing the "flexibility premium" gap
-# Chart Type: Time Series Line Chart
-# Module: IJC445 Data Visualisation
-# Date: January 2026
+# ===================================================================
 # ==============================================================================
 
 # SETUP ------------------------------------------------------------------------
@@ -84,5 +79,6 @@ ggsave("visualisations/diverse/chart1_line_anytime_vs_advance.png",
 
 # Auto-display chart
 print(chart1)
+
 
 
