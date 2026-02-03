@@ -64,7 +64,7 @@ chart1 <- ggplot(anytime_advance, aes(x = Year, y = Fare_Index,
   geom_line(size = 1.5) +
   geom_point(size = 3) +
   geom_hline(yintercept = 100, linetype = "dotted", colour = "grey40", size = 0.8) +
-  # Colourblind-safe Okabe & Ito palette
+  # Colourblind-safe Okabe and  Ito palette
   scale_colour_manual(
     values = c("Anytime" = "#D55E00", "Advance" = "#0072B2"),
     name = "Ticket Type"
@@ -274,4 +274,5 @@ print(composite)
 # ==============================================================================
 # SUMMARY
 # ==============================================================================
+
 
