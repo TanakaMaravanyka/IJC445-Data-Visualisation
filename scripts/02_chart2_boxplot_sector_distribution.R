@@ -1,11 +1,6 @@
 # ==============================================================================
 # IJC445 DATA VISUALISATION - CHART 2: BOX PLOT (Distribution by Sector)
 # ==============================================================================
-# Script: 02_chart2_boxplot_sector_distribution.R
-# Purpose: Create box plot showing fare index distribution across sectors
-# Chart Type: Box Plot (Statistical Distribution)
-# Module: IJC445 Data Visualisation
-# Date: January 2026
 # ==============================================================================
 
 # SETUP ------------------------------------------------------------------------
@@ -75,5 +70,6 @@ ggsave("visualisations/diverse/chart2_boxplot_sector_distribution.png",
 
 # Auto-display chart
 print(chart2)
+
 
 
